@@ -17,6 +17,7 @@ console.log(9 * a);
 let b = 7 * a;
 console.log(b);
 
+// Playing around with values
 let max = 57;
 
 let actual = max - 14;
