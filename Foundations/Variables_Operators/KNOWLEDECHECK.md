@@ -15,7 +15,7 @@ Incorrect: 1a; my-name
 
 ## Q.4 What happens when you add strings and numbers together?
 
-When we add strings and numbers together, type coercion takes place and they concatanate. `a + 9 = a9`
+When we add strings and numbers together, type coercion takes place and they concatanate. `"a" + 9 = a9`
 
 ## Q.5 How does the `%` operator work?
 
