@@ -60,7 +60,6 @@
 
 > `if(condition) {execute when condition is true} else { execute when condition is false}`
 
-
 ## What is the syntax for a switch statement?
 
 > `const expr = 'Papayas';
