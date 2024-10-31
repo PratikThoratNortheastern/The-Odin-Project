@@ -1,0 +1,14 @@
+What can I do with Chrome Dev Tools?
+
+-> Change screen size of the website using developer tools
+-> View and change the DOM
+-> Debug Javascript
+-> Add breakpoints
+-> View and edit HTML in the Elements Tab
+-> View the resources Panel to check the scripts running on the website.
+-> Add CSS pseudostate to a class
+-> View CSS Properties in alphabetical Order
+-> View and edit the box model of any Element in chrome dev tools
+-> View a page in print mode
+-> Enable or Disable CSS classes
+-> Stimulate media queries in Device Mode
