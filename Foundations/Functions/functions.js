@@ -1,15 +1,33 @@
 "use strict";
 
-// functions are used constantly in Javascript
+// ASSIGNMENT
 
-// function favouriteAnimal(animal) {
-//   return `${animal} is my favourite animal`;
-// }
+// 1)
+function add7(number) {
+  return number;
+}
 
-// console.log(favouriteAnimal("Goat"));
+console.log(add7(7));
 
-// function sum(param1, param2) {
-//   return param1 + param2;
-// }
+// 2)
+function multiply(number_one, number_two) {
+  return number_one * number_two;
+}
+console.log(multiply(2, 3));
 
-// console.log(sum(1, 4));
+// 3
+
+function capitalize(input_string) {
+  input_string =
+    input_string[0].toUpperCase() + input_string.slice(1).toLowerCase();
+  return input_string;
+}
+
+console.log(capitalize("not a Lazy MAN"));
+// 4
+
+function lastLetter(x) {
+  return x.charAt(x.length - 1);
+}
+
+console.log(lastLetter("not a Lazy"));
