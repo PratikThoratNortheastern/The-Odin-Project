@@ -147,3 +147,37 @@ Output of array flatening
 //takes element from index 1(included) upto index 3 (index 3 not included)
 // console.log(citrus); output: ['Orange','Lemon']
 // if we see only one argument in the slice method, fruits.slice(1), it will take the end argument
+
+// Iteration using for..of Loop
+
+// for (const songs in lanaDelReyAlbums) {
+//   console.log(lanaDelReyAlbums[songs]);
+// }
+
+// map() and filter()
+
+// map() does something to every element in the array and returns a new array. the original array is untouched
+
+// function toUpper(string) {
+//   return string.toUpperCase();
+// }
+
+// const upperCaseAlbums = lanaDelReyAlbums.map(toUpper);
+// console.log(upperCaseAlbums);
+
+// const integerArray = [0, 1, 2, 3, 4];
+// const doubledValues = integerArray.map((index) => index * 2);
+// console.log(doubledValues);
+
+// filter() will basically filter out the elements in the array as per the functions calculation and then add it to a new array and returns it.
+
+// function isEvenNumber(number) {
+//   return number % 2 === 0;
+// }
+
+const integerArray = [0, 1, 2, 3, 4];
+
+const newIntArr = integerArray.filter((number) => {
+  return number % 2 === 0;
+});
+console.log(newIntArr);
